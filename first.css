@@ -1,0 +1,86 @@
+nav{
+    text-align: center;
+    background-color:crimson;
+    height: 15%; width: 100%;
+  display: flex;
+gap: 20rem;
+}
+nav img{
+   border-radius: 50px;
+    height: 100px;width: 100px;
+   padding: 1.5rem;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 15%;
+}
+ul li{
+    display: inline-block;
+ text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+   padding-top: 3rem; 
+   position: relative;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    font-weight: 500;
+}
+.find{
+    border-radius: 25px;
+padding-top: 3rem;
+}
+.buttons{
+    margin: 3rem;
+    display: flex;
+    height: 40px;
+    gap: 1rem;
+
+}
+ul li::after{
+    content:'' ;
+    background-color: peru;
+    height: 3px;
+   left: 0%;
+    bottom: -10%;
+    width: 0%;
+    transform: 0.5s;
+    position: absolute;
+}
+ul li :hover:after
+{
+    width: 100%;
+}
+footer{
+    background-color: black;
+    color: white;
+text-align: center;
+cursor:default;
+font-weight: 500;
+}
+main{
+    overflow: hidden;
+    margin: 0;
+    padding: 0%;
+    height: 85vh;
+    width: 100%;
+}
+.find :hover{box-shadow: 0 0 20px silver; 
+
+}
+.slideshow{
+scroll-margin-inline-start: 1000px;
+    padding: 0;margin: 0;
+    background-color: darkgrey;
+    overflow:auto;
+    white-space: nowrap;
+    padding: 10px;
+}
+img{margin: 0%;
+    padding-right: 0;
+    height:82vh;
+    width: 100%;
+
+}
